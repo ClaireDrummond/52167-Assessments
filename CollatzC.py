@@ -10,4 +10,9 @@ while n !=1:
         print (n)
     else:
         n = (n * 3) + 1 
-        print (n)
+        print (n)   
+
+
+# If the previous integer is even, the next integer is divided by 2
+# However if the previous integer is odd, the next integer is 3 times the previous integer plus 1
+# The conjecture is that no matter what value of n, the sequence will always reach 1
