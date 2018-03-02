@@ -2,6 +2,8 @@
 
 # Collatz Conjecture
 
+# ref: https://en.wikipedia.org/wiki/Collatz_conjecture
+
 n = int(input("Please enter an integer: "))
 
 while n !=1:

@@ -2,6 +2,7 @@
 # Project Euler Problem No. 5
 
 #2520 is the smallest number that can be divided by each of numbers 1-10 without remainder
+# ref: https://projecteuler.net/
 
 for i in range (1, 11):
     print (2520 / i)
