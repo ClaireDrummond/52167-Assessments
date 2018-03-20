@@ -9,3 +9,5 @@ CollatzC.py contains the exercise from week 3
 Project Euler Problem No. 5: current solution takes too long to run.  Is it possible to find a solution where the program will run quicker?
 
 Irish Data Set - Exercise No 5
+
+Factorial Numbers - Exercise No. 6
