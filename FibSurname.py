@@ -1,7 +1,6 @@
 # Claire Drummond W1 and W2 Exercises
 
 # Week 1 Exercise
-
 # A program that displays Fibonacci numbers.
 
 
@@ -44,7 +43,6 @@ print("Fibonacci number", x, "is", ans)
 
 
 # Week 2 Exercise
-
 # A program that displays Fibonacci numbers using people's names.
 
 
@@ -99,7 +97,6 @@ print("Fibonacci number", x, "is", ans)
 
 # The ord() and chr() are exactly the opposite/reverse functions of each other.
 # We know that computer understands only bits and bytes. The characters we type in or feed into it are really encoded as bits. For us humans, we interpret these bits as some numbers that represent those characters we fed. These are what we can say ASCII codes.
-# Like
 # ASCII code for ‘A’ is 65, ‘a’ is 97, etc.
 # ord()
 # It gives the ASCII code of the character.

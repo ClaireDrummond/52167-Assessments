@@ -21,7 +21,7 @@ print("The factorial of number 10 is:",factorial(10))
 # Alternative Solution Option from Topic 7 Notes on Functions
 # ref: https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb#
 
-def factorialb(m):
+def factorialb(m): #defining this solution as factorialb  - factorial option b
     """Return the factorialb of m."""
     ans = 1
     for i in range(2, m + 1):
