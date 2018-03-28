@@ -7,7 +7,7 @@
 for i in range (1, 11):
     print (2520 / i)
     
-# above statment correct
+# above statement correct
 
 # smallest number that is divisible by (1,21)
 def isdivisible1to20(n):
@@ -27,4 +27,44 @@ while True:
 
 print(n)
 
-#program takes a bit too long to run.  Must revisit
+
+
+# Alternative Solution to Project Euler 5
+# Ref: https://github.com/nayuki/Project-Euler-solutions/blob/master/python/p005.py
+
+
+import fractions
+
+
+
+
+
+# The smallest number n that is evenly divisible by every number in a set {k1, k2, ..., k_m}
+
+# is also known as the lowest common multiple (LCM) of the set of numbers.
+
+# The LCM of two natural numbers x and y is given by LCM(x, y) = x * y / GCD(x, y).
+
+# When LCM is applied to a collection of numbers, it is commutative, associative, and idempotent.
+
+# Hence LCM(k1, k2, ..., k_m) = LCM(...(LCM(LCM(k1, k2), k3)...), k_m).
+
+def compute():
+
+	ans = 1
+
+	for i in range(1, 21):
+
+		ans *= i // fractions.gcd(i, ans)
+
+	return str(ans)
+
+
+
+
+
+if __name__ == "__main__":
+
+	print(compute())
+
+ #Very efficient code.    
