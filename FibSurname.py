@@ -38,7 +38,8 @@ ans = fib(x)
 print("Fibonacci number", x, "is", ans)
 
 
-# My name is Claire, so the first and last letter of my name (C + E = 3 + 5), give the number 8. The 8th Fibonacci number is 21
+# My name is Claire, so the first and last letter of my name (C + E = 3 + 5), give the number 8.
+# The 8th Fibonacci number is 21
 
 
 

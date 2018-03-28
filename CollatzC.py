@@ -4,15 +4,15 @@
 
 # ref: https://en.wikipedia.org/wiki/Collatz_conjecture
 
-n = int(input("Please enter an integer: "))
+n = int(input("Please enter an integer: ")) #This allows me to input any integer at the command prompt
 
-while n !=1:
-    if n % 2 == 0:
-        n = n/2
-        print (n)
-    else:
-        n = (n * 3) + 1 
-        print (n)   
+while n !=1: # while n is not equal to 1
+    if n % 2 == 0: # if there is no remainder when you divide n by 2
+        n = n/2 # divide n by 2
+        print (n) # print n
+    else: # otherwise
+        n = (n * 3) + 1 # multiply n by 3 and add 1
+        print (n)   # print n
 
 
 # If the previous integer is even, the next integer is divided by 2
