@@ -1,4 +1,4 @@
-# 52167-Assessments
+  # 52167-Assessments
 Assessments for Programming and Scripting Data Analytics
 
 # Exercise 1 & 2: FibSurname.py
@@ -16,4 +16,5 @@ While I have written the code using for and range, it takes a long time for the 
 # Exercise 5: Iris Data Set
 In this exercise I was tasked with importing the Iris Data Set and writing a Python script that reads the Iris data set in and prints the four numerical values on each row in a nice format. https://en.wikipedia.org/wiki/Iris_flower_data_set, https://pyformat.info/
 
-Factorial Numbers - Exercise No. 6
+# Exercise 6: Factorial Numbers
+In this exercise, I was tasked with writing a Python script containing a function called factorial() that takes a single input/argument which is a positive integer and returns its factorial.   The factorial of a number is that number multiplied by all of the positive numbers less than it.  https://stackoverflow.com/questions/5136447/function-for-factorial-in-python, https://nbviewer.jupyter.org/github/ianmcloughlin/python-fundamentals-notes/blob/master/functions-modules.ipynb
