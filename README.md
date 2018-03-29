@@ -13,7 +13,7 @@ The Collatz conjecture is a conjecture in mathematics that concerns a sequence d
 2,520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.  The task here is to write a Python program using for and range to calculate the smallest positive number that is evenly divisible by all of the numbers from 1 to 20.
 While I have written the code using for and range, it takes a long time for the program to process.  I have found very clever python code on Github which can run the program in less than a second. https://github.com/nayuki/Project-Euler-solutions/blob/master/python/p005.py
 
-
-Irish Data Set - Exercise No 5
+# Exercise 5: Iris Data Set
+In this exercise I was tasked with importing the Iris Data Set and writing a Python script that reads the Iris data set in and prints the four numerical values on each row in a nice format. https://en.wikipedia.org/wiki/Iris_flower_data_set, https://pyformat.info/
 
 Factorial Numbers - Exercise No. 6
