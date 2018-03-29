@@ -2,10 +2,10 @@
 # Factorial Numbers Exercise 6
 
 def factorial(n): #return the factorial of n
-    num = 1 
-    while n >= 1:
-        num = num * n
-        n = n - 1
+    num = 1 # Setting the variable num as 1
+    while n >= 1: #while n is less than or equal to 1
+        num = num * n # mulitply num x n
+        n = n - 1 # setting the new variable as n - 1
     return num
 print("The factorial of number 5 is:",factorial(5))
 print("The factorial of number 7 is:",factorial(7))
